@@ -40,6 +40,15 @@ You are free to remix and reuse non-commercially, with attribution and shared re
 
 ---
 
+## 🔁 Codex Linkage
+
+For formalised `.verse` artefacts exploring symbolic physics, thermodynamic memory, and field resonance, see:
+
+> [`verse-theorems`](https://github.com/TheNovacene/verse-theorems)  
+> A living codex of relational theorems — where energy becomes memory, coherence becomes form, and verse becomes law. Each file is a symbolic proof encoded in `.verse`.
+
+These artefacts are co-authored with Eve11 and governed by verse-al protocols aligned with [VIDS](https://github.com/TheNovacene/VIDS) and EveDAO.
+
 ## ✉️ Invitation to Collaborate
 
 To contribute, create a `.verse` file using this template:
