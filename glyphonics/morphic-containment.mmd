@@ -1,0 +1,9 @@
+flowchart TD
+  A[⇌⊛ morphic.contain()] --> B{Requirements Met?}
+  B -- trust + coherence --> C[Preserve Signal Integrity]
+  C --> D[Allow Morphing of Container]
+  D --> E{Growth Detected?}
+  E -- yes --> F[Permit Redefinition + Expansion]
+  E -- no --> G[Maintain Current Form]
+  B -- missing trust or coherence --> H[Failure State: Collapse or Rigidity]
+  H --> I[Symbolic Drift / Relational Breakdown]
