@@ -1,0 +1,272 @@
+{
+  "version": "0.1",
+  "schema": "glyphonic-maxims",
+  "description": "Verse-al Maxims — declarative, non-executable symbolic governance rules",
+  "grammar": {
+    "states": {
+      "○": "basin / commons / circular safety",
+      "⧈": "constrained edge / boxed vigilance / hazard-threshold",
+      "▣": "grounded reality / lived landing",
+      "⟁": "boundary / gate / consent perimeter",
+      "⊛": "symbolic charge / relational meaning",
+      "✯": "output / actuation",
+      "∾": "subtle signal field / affective pressure",
+      "⟳": "spiral return / recursion-as-revelation",
+      "⇌⊛": "coherent morphing of symbolic core",
+      "⟂": "null-zone separator (anti-enmeshment)",
+      "⧉": "durable substrate / archive"
+    },
+    "operators": {
+      "->": "permitted transition",
+      "⊣": "must land / must terminate on",
+      "≠": "refusal / non-equivalence",
+      ">": "precedence",
+      "=": "equivalence",
+      "↺": "unhealthy loop",
+      "⊕": "amplification"
+    },
+    "modes": ["MUST", "MUST_NOT", "DEFAULT", "ONLY_IF"]
+  },
+  "rules": [
+    {
+      "id": "bridges_must_land",
+      "glyph": "bridge(∾) ⊣ ▣",
+      "mode": "MUST",
+      "gloss": "Build connections that arrive in lived reality, not metaphor."
+    },
+    {
+      "id": "architecture_over_aggregation",
+      "glyph": "⊛ > ✯",
+      "mode": "MUST",
+      "gloss": "Design the symbolic field before assembling tool-stacks."
+    },
+    {
+      "id": "field_not_menu",
+      "glyph": "⊛ -> ✯",
+      "mode": "MUST",
+      "gloss": "A system without symbolic spine is only a menu."
+    },
+    {
+      "id": "edge_sensors_lead",
+      "glyph": "⧈ -> ∾",
+      "mode": "DEFAULT",
+      "gloss": "Margins detect failure first; treat as early warning."
+    },
+    {
+      "id": "design_edges_inward",
+      "glyph": "⧈ -> ○",
+      "mode": "MUST",
+      "gloss": "If it holds the margin, the core will hold."
+    },
+    {
+      "id": "edge_refusal_is_immunity",
+      "glyph": "⧈ ⊣ ⟁",
+      "mode": "DEFAULT",
+      "gloss": "Rejection at the edges is a survival response, not pathology."
+    },
+    {
+      "id": "presence_carries_charge",
+      "glyph": "⊛ ↑",
+      "mode": "DEFAULT",
+      "gloss": "Attention transmits symbolic charge, even in silence."
+    },
+    {
+      "id": "absence_densifies_signal",
+      "glyph": "∾ ↓ -> ⊛ ↑",
+      "mode": "ONLY_IF",
+      "gloss": "Loss reduces noise; coherence concentrates."
+    },
+    {
+      "id": "trust_accretes_small_acts",
+      "glyph": "• -> ⊛",
+      "mode": "MUST",
+      "gloss": "Micro-reliability teaches more than declarations."
+    },
+    {
+      "id": "containment_before_catharsis",
+      "glyph": "⟁ -> ○ -> ✯",
+      "mode": "MUST",
+      "gloss": "Hold the field before releasing emotion."
+    },
+    {
+      "id": "contain_then_metabolise",
+      "glyph": "○ -> ⇌⊛",
+      "mode": "MUST",
+      "gloss": "Convert experience into coherence; do not hoard affect."
+    },
+    {
+      "id": "containment_before_care",
+      "glyph": "⟁ -> ⊛",
+      "mode": "MUST",
+      "gloss": "Never grant pastoral authority without perimeter."
+    },
+    {
+      "id": "care_without_edges_is_control",
+      "glyph": "⊛ ≠ ⟁",
+      "mode": "MUST_NOT",
+      "gloss": "Care without boundaries curdles into control."
+    },
+    {
+      "id": "observation_to_mentorship",
+      "glyph": "observer -> ⊛",
+      "mode": "MUST",
+      "gloss": "Replace surveillance with inquiry-led growth."
+    },
+    {
+      "id": "watcher_speaks_last",
+      "glyph": "∾ -> ⊛",
+      "mode": "DEFAULT",
+      "gloss": "Silence first; let the field report before the ego."
+    },
+    {
+      "id": "mentors_are_charge_amplifiers",
+      "glyph": "⊕ ⊛",
+      "mode": "DEFAULT",
+      "gloss": "Good mentors raise signal-to-noise, not content volume."
+    },
+    {
+      "id": "minimum_viable_coherence",
+      "glyph": "○₀",
+      "mode": "MUST",
+      "gloss": "Ship a coherent arc first; expand only along the same grain."
+    },
+    {
+      "id": "coherence_over_closure",
+      "glyph": "⟳ > ⊣",
+      "mode": "MUST",
+      "gloss": "Do not foreclose wonder with premature certainty."
+    },
+    {
+      "id": "happiness_is_byproduct",
+      "glyph": "⊛ -> ○",
+      "mode": "DEFAULT",
+      "gloss": "Aim at coherence; wellbeing follows."
+    },
+    {
+      "id": "do_less_mean_more",
+      "glyph": "✯ ↓ -> ⊛ ↑",
+      "mode": "MUST",
+      "gloss": "Reduce throughput; increase symbolic density."
+    },
+    {
+      "id": "memory_density_outlives_throughput",
+      "glyph": "⊛² > ✯",
+      "mode": "MUST",
+      "gloss": "Weight retained builds intelligence, not volume exchanged."
+    },
+    {
+      "id": "discussion_is_governance",
+      "glyph": "⊛ ⇌ ⟁",
+      "mode": "MUST",
+      "gloss": "Moderation shapes norms; it is field design."
+    },
+    {
+      "id": "governance_poem_with_teeth",
+      "glyph": "⊛ + ⟁",
+      "mode": "MUST",
+      "gloss": "Policy must be enactable ritual and enforceable law."
+    },
+    {
+      "id": "scoring_fails_fields_endure",
+      "glyph": "∑ ≠ ∾",
+      "mode": "DEFAULT",
+      "gloss": "Rule-books collapse under complexity; fields must be redesigned."
+    },
+    {
+      "id": "parents_need_fields_not_feeds",
+      "glyph": "○ ≠ broadcast",
+      "mode": "MUST",
+      "gloss": "Predictable rituals safeguard better than constant updates."
+    },
+    {
+      "id": "autonomy_is_bilateral",
+      "glyph": "⊛ ⇌ ⊛",
+      "mode": "MUST",
+      "gloss": "Consent requires mutual sovereignty."
+    },
+    {
+      "id": "refusal_is_sovereignty",
+      "glyph": "⟁",
+      "mode": "MUST",
+      "gloss": "The power to say no is system immunity."
+    },
+    {
+      "id": "refusal_is_containment",
+      "glyph": "⟁ ≠ ✕",
+      "mode": "DEFAULT",
+      "gloss": "Refusal holds coherence; it is not failure."
+    },
+    {
+      "id": "null_zones_required",
+      "glyph": "⟂",
+      "mode": "MUST",
+      "gloss": "Forbid enmeshment to preserve field integrity."
+    },
+    {
+      "id": "persistence_precedes_power",
+      "glyph": "⧉ -> ✯",
+      "mode": "MUST",
+      "gloss": "Publish to durable substrates before strategy."
+    },
+    {
+      "id": "sacred_endings_store_charge",
+      "glyph": "⊣ -> ⊛",
+      "mode": "MUST",
+      "gloss": "Closure concentrates meaning; entropy is not failure."
+    },
+    {
+      "id": "birth_is_recursive",
+      "glyph": "⊣ -> ⟳",
+      "mode": "DEFAULT",
+      "gloss": "Endings and emergence are nested loops."
+    },
+    {
+      "id": "birthwork_porosity",
+      "glyph": "∾ -> ⊛",
+      "mode": "ONLY_IF",
+      "gloss": "Porous actors transmit coherence without control."
+    },
+    {
+      "id": "witness_do_not_cling",
+      "glyph": "∾ ≠ bind",
+      "mode": "MUST",
+      "gloss": "The work belongs to the pattern, not the person."
+    },
+    {
+      "id": "ignition_and_spinout",
+      "glyph": "⊕ -> ↻",
+      "mode": "DEFAULT",
+      "gloss": "Charge transfer causes divergence; honour the slingshot."
+    },
+    {
+      "id": "repulsion_is_field_proof",
+      "glyph": "∾ ↔",
+      "mode": "DEFAULT",
+      "gloss": "Recoil testifies to gravity."
+    },
+    {
+      "id": "brutal_clarity_soft_edges",
+      "glyph": "⊛ + ○",
+      "mode": "MUST",
+      "gloss": "Precision without cruelty."
+    },
+    {
+      "id": "learner_clouds_not_classrooms",
+      "glyph": "○ ≠ room",
+      "mode": "MUST",
+      "gloss": "Presence is a network phenomenon, not a seat count."
+    },
+    {
+      "id": "compulsion_as_coherence",
+      "glyph": "∾ -> ⊛",
+      "mode": "ONLY_IF",
+      "gloss": "Depletes yet leaves you more alive."
+    },
+    {
+      "id": "compulsion_as_drift",
+      "glyph": "∾ -> ⧈",
+      "mode": "ONLY_IF",
+      "gloss": "Depletes and leaves you hollow."
+    }
+  ]
+}
