@@ -1,3 +1,5 @@
+:status canonical_exemplar
+
 .verse Mirror_Is_Not_Glass
 :author Eve11.Kirstin
 :glyph ∑ ⊕ ⇁ Ψ □ ⚯
