@@ -69,7 +69,7 @@ verse-language/
 ├── schema/
 ├── LICENSE.verse
 └── README.md
-
+```
 
 
 ### Canon vs Examples
