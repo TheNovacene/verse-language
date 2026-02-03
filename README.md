@@ -56,27 +56,20 @@ It is field-tested, not speculative.
 
 ## Repository Structure (Current Canon)
 
+```text
 verse-language/
 ├── canon/
-│ └── maxims/
-│ ├── maxims.v0.1.json
-│ └── README.md
-│
+│   └── maxims/
+│       ├── maxims.v0.1.json
+│       └── README.md
 ├── examples/
-│ └── *.verse
-│
 ├── protocols/
-│ └── *.verse
-│
 ├── glyphonics/
-│ ├── GLYPHONIC_PRIMER.md
-│ ├── glyphons-vs-gryphons.md
-│ └── morphic-containment.md
-│
-├── parser/ # Non-executing translators (Verse2Prose, Verse2Glyph)
-├── schema/ # Declarative schemas (no runtime semantics)
+├── parser/
+├── schema/
 ├── LICENSE.verse
 └── README.md
+
 
 
 ### Canon vs Examples
